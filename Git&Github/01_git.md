@@ -102,7 +102,7 @@ $ git commit -m "Fisrt commit"
 $ git status
 ```
 
-## log
+## 2. log
 
 > commit 히스토리
 
