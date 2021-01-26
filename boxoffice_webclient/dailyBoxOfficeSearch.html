@@ -4,10 +4,11 @@
 <head>
     <meta charset="utf-8">
     <title>BoxOffice Search</title>
-    <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+
+    <script
+            src="https://code.jquery.com/jquery-2.2.4.min.js"
             integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
             crossorigin="anonymous"></script>
-    <script src = js/dailyBoxOfficeSearch.js></script>
 
     <!-- Bootstrap core CSS -->
     <!-- CDM방식 -->
@@ -36,6 +37,9 @@
     <!-- Custom styles for this template -->
 
     <link href="css/dashboard.css" rel="stylesheet">
+
+    <script src = js/dailyBoxOfficeSearch.js></script>
+
 </head>
 <body>
 
@@ -50,7 +54,7 @@
     <ul class="navbar-nav px-3">
         <li class="nav-item text-nowrap">
             <a class="nav-link" href="#"
-            onclick="my_func()">검색!!</a>
+               onclick="my_func()">검색!!</a>
         </li>
     </ul>
 </header>
@@ -89,7 +93,7 @@
                         <th>개봉일</th>
                     </tr>
                     </thead>
-                    <tbody>
+                    <tbody id ='my_tbody'>
                     <tr>
                         <td>1,001</td>
                         <td>Lorem</td>
